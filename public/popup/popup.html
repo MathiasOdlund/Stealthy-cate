@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+    <title>chatimon</title>
+  </head>
+  <body id="body">
+    <select name="" id="colorSelect" onchange="onChangeColor()">
+      <option value="black">Black</option>
+      <option value="white">White</option>
+    </select>
+    <script>
+      function onChangeColor() {
+        const selectedColor = document.getElementById("list").value;
+      
+        console.log(selectedColor);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Chatimon",
+  "description": "Allows you to communicate with people.",
+  "version":"1.0",
+  "browser_action":{
+    "default_icon": "./public/img/logo.png",
+    "default_popup": "./public/popup/popup.html"
+  },
+    "permissions": []
+}
